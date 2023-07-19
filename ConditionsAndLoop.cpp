@@ -105,3 +105,27 @@ int main() {
     float temp = (n - 32.0) * 5.0 / 9.0;
     cout << "Celsius scale is: " << temp;
 }
+
+
+// 7. check a number is prime or not
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int n;
+    cout << "Enter a number  : " << " ";
+    cin >> n;
+    int i = 2;
+    while (i < n)
+    {
+        if(n % i == 0){
+            cout << n << " is not Prime Number";
+            break;
+        }
+        else {
+            cout << n << " is Prime Number";
+        }
+        i++;
+    }
+}
