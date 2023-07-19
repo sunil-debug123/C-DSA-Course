@@ -92,3 +92,16 @@ int main() {
     }
     cout << "Sum of Prime Numbers 1 to N number is: " << sum;
 }
+
+// 6. C++ program to convert Fahrenheit scale to Celsius scale
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    float n;
+    cout << "Enter Temprature in Fahrenheit : " << " ";
+    cin >> n;
+    float temp = (n - 32.0) * 5.0 / 9.0;
+    cout << "Celsius scale is: " << temp;
+}
