@@ -55,6 +55,7 @@ int main()
     }
 }
 
+
 // 4. Print sum of 1 to N
 #include <iostream>
 using namespace std;
@@ -70,4 +71,24 @@ int main() {
         i++;
     }
     cout << "Total sum of 1 to N number is: " << sum;
+}
+
+// 5. Print sum of even number 1 to N
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int n;
+    cout << "Enter Value of n : " << " ";
+    cin >> n;
+    int i = 0;
+    int sum = 0;
+    while ( i<=n ) {
+        if (i%2 == 0){
+        sum = sum + i;
+        }
+        i++;
+    }
+    cout << "Sum of Prime Numbers 1 to N number is: " << sum;
 }
