@@ -129,3 +129,27 @@ int main() {
         i++;
     }
 }
+
+
+// 8.  print star pattern of 4*4 matrx
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int rows = 4;
+    int col = 4;
+    int x = 1;
+    int y = 1;
+    while ( x <= rows)
+    {
+        while ( y <= col)
+        {
+            cout << "*" << " ";
+            y ++;
+        }
+        cout << endl;
+        y = 1;
+        x++;
+    }
+}
