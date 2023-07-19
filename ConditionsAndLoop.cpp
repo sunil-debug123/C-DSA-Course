@@ -153,3 +153,27 @@ int main() {
         x++;
     }
 }
+
+
+// 9. print number patter 111,222,333
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int rows = 3;
+    int col = 3;
+    int x = 1;
+    int y = 1;
+    while ( x <= rows)
+    {
+      int y = 1;
+        while ( y <= col)
+        {
+            cout << x << " ";
+            y ++;
+        }
+        cout << endl;
+        x++;
+    }
+}
