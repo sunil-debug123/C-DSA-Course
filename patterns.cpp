@@ -171,7 +171,6 @@ int main() {
     cout << "Enter the rows ";
     cin >> rows;
     int i = 1;
-    int count = 1 ;
     while ( i <= rows )
     {
         int j = 1;
@@ -179,6 +178,31 @@ int main() {
         while ( j <= i) {
             cout << count << " ";
             count --;
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+// 9. Print AAA,BBB,CCC Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int cols;
+    cout << "Enter the columns ";
+    cin >> cols;
+    int i = 1;
+    while ( i <= rows )
+    {
+        int j = 1;
+        while ( j <= cols) {
+            char ch = 'A' + i - 1;
+            cout << ch << " ";
             j ++;
         }
         cout << endl;
