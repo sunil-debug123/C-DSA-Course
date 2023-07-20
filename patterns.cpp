@@ -114,3 +114,26 @@ int main() {
         i++;
     }
 }
+
+// 6. Print series of numbers in left triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int i = 1;
+    int count = 1 ;
+    while ( i <= rows )
+    {
+        int j = 1;
+        while ( j <= i) {
+            cout << count << " ";
+            count ++; 
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
