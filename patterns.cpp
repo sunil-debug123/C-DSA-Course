@@ -161,3 +161,27 @@ int main() {
         i++;
     }
 }
+
+// 8. Print reverse number in left triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int i = 1;
+    int count = 1 ;
+    while ( i <= rows )
+    {
+        int j = 1;
+        int count = i;
+        while ( j <= i) {
+            cout << count << " ";
+            count --;
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
