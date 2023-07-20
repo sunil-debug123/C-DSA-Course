@@ -45,3 +45,30 @@ int main() {
         i++;
     }
 }
+
+
+// 3. Print the series Pattern 1234, 456, 789
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int cols;
+    cout << "Enter the columns ";
+    cin >> cols;
+    int i = 1;
+    int count  = 1;
+    while ( i <= rows )
+    {
+        int j = 1;
+        while ( j <= cols) {
+            cout << count << " ";
+            count++;
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
