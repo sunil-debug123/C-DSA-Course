@@ -137,3 +137,27 @@ int main() {
         i++;
     }
 }
+
+// 7. Print series of according to row numbers in left triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int i = 1;
+    int count = 1 ;
+    while ( i <= rows )
+    {
+        int j = 1;
+        int z = i;
+        while ( j <= i) {
+            cout << z << " ";
+            z++; 
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
