@@ -209,3 +209,28 @@ int main() {
         i++;
     }
 }
+
+// 10. Print ABCD Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter the rows ";
+    cin >> rows;
+    int cols;
+    cout << "Enter the columns ";
+    cin >> cols;
+    int i = 1;
+    while ( i <= rows )
+    {
+        int j = 0;
+        while ( j < cols) {
+            char ch = 'A' + j;
+            cout << ch << " ";
+            j ++;
+        }
+        cout << endl;
+        i++;
+    }
+}
