@@ -354,3 +354,25 @@ int main() {
         i++;
     }
 }
+
+// 16. Print ABC triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 0;
+    while ( i <= rows)
+    {
+        int j = 0;
+        while (j <= i) {
+            char ch = 'A' + i;
+            cout << ch << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
