@@ -286,3 +286,25 @@ int main() {
         i++;
     }
 }
+
+// 13. Print ABC ,ABC , ABC Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 1;
+    while ( i <= rows)
+    {
+        int j = 0;
+        while (j < rows) {
+            char ch = 'A' + j;
+            cout << ch << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
