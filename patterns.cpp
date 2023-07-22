@@ -471,3 +471,24 @@ int main() {
     i++;
     }
 }
+
+// 21. Print inverted right side triangle
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 1;
+    while ( i <= rows)
+    {
+        int k = i;
+        while (k <= rows){
+        cout << "* ";
+        k++;
+        }
+        cout << endl;
+    i++;
+    }
+}
