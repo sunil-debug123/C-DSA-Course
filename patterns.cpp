@@ -376,3 +376,27 @@ int main() {
         i++;
     }
 }
+
+// 17. Print ABCDEFG triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 0;
+    int count = 0;
+    while ( i <= rows)
+    {
+        int j = 0;
+        while (j <= i) {
+            char ch = 'A' + count;
+            cout << ch << " ";
+            count ++;
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
