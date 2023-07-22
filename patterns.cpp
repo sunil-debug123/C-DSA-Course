@@ -400,3 +400,25 @@ int main() {
         i++;
     }
 }
+
+// 18. Print ABC,CDE triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 1;
+    while ( i <= rows)
+    {
+        int j = 0;
+        while (j < i) {
+            char ch = 'A' + i+j -1 ;
+            cout << ch << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
