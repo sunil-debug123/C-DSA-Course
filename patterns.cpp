@@ -422,3 +422,26 @@ int main() {
         i++;
     }
 }
+
+// 19. Print Desending ABC,CDE triangle Pattern
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows;
+    cout << "Enter Number of Rows : ";
+    cin >> rows;
+    int i = 1;
+    while ( i <= rows)
+    {
+        int j = 0;
+        char ch = 'A' + rows - i;
+        while (j < i) {
+            cout << ch << " ";
+            ch++;
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
