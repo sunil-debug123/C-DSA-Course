@@ -515,7 +515,7 @@ int main() {
         cout << "* ";
         k++;
         }
-        cout << endl;
+        cout << endl;  
     i++;
     }
 }
