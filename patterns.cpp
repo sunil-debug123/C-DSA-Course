@@ -661,3 +661,35 @@ int main() {
        i++;
    }
 }
+
+// 28 .Print Dabbang Pattern;
+#include <iostream>
+using namespace std;
+
+int main() {
+   int rows;
+   cout << "Enter number of Rows : ";
+   cin >> rows;
+   int i = 1;
+   while ( i <= rows)
+   {
+       int j = 1;
+       int k = rows;
+       int stars = 1;
+       while (j <= rows-i+1)
+       {
+           cout << j << " ";
+           j++;
+       }
+       while (stars < i*2-1){
+           cout << " * ";
+           stars++;
+       }
+       while ( k >= i) { 
+           cout << k-i+1 << " ";
+           k--;
+       }
+       cout << endl;
+       i++;
+   }
+}
