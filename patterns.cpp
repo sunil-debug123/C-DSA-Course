@@ -519,3 +519,30 @@ int main() {
     i++;
     }
 }
+
+// 23 .Print mirror number triangle;
+#include <iostream>
+using namespace std;
+
+int main() {
+   int rows;
+   cout << "Enter number of Rows : ";
+   cin >> rows;
+   int i = 1;
+   while ( i <= rows)
+   {
+       int j = 1;
+       int k = 1;
+       while (j<=i)
+       {
+           cout << " ";
+           j++;
+       }
+       while (k<=rows-i+1){
+           cout << i << " ";
+           k++;
+       }
+       cout << endl;
+       i++;
+   }
+}
