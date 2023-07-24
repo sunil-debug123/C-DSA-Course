@@ -573,3 +573,32 @@ int main() {
        i++;
    }
 }
+
+// 25 .Print mirror number triangle;
+#include <iostream>
+using namespace std;
+
+int main() {
+   int rows;
+   cout << "Enter number of Rows : ";
+   cin >> rows;
+   int i = 1;
+   int count = 1;
+   while ( i <= rows)
+   {
+       int j = i;
+       int k = 1;
+       while (j < rows)
+       {
+           cout << "_" << " ";
+           j++;
+       }
+       while (k<= i ){
+           cout << count << " ";
+           count ++;
+           k++;
+       }
+       cout << endl;
+       i++;
+   }
+}
