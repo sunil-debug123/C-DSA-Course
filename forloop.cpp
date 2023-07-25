@@ -42,3 +42,39 @@ int main() {
     }
     return 0;
 }
+
+// 3. Practice question
+#include <iostream>
+using namespace std;
+
+int main() {
+        for (int i=0; i <= 15; i+=2)
+        {
+            cout << i << " ";
+            if(i&1){
+                continue;
+            }
+            i++;
+        }
+}
+
+// 4. Diff Product and sum of given number
+#include <iostream>
+using namespace std;
+
+int main() {
+   int n;
+   cout << "Enter The Number : ";
+   cin >> n;
+   int sum = 0;
+   int product = 1;
+   while (n != 0)
+   {
+       int digit = n%10;
+       sum = sum + digit;
+       product = product*digit;
+       n=n/10;
+   }
+   int ans = product - sum;
+   cout << ans << " ";
+}
