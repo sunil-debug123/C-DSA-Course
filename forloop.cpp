@@ -28,7 +28,7 @@ int main() {
         // Prints the first two terms.
         if(i == 1) {
             cout << t1 << ", ";
-            continue;
+            continue; 
         }
         if(i == 2) {
             cout << t2 << ", ";
