@@ -1,4 +1,4 @@
-// Decimal To binary 
+// 1. Decimal To binary 
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -18,7 +18,7 @@ int main() {
     cout << "Answer in Bits is : " << bits;
 }
 
-// Neagative to binary
+// 2. Neagative to binary
 
 #include <iostream>
 using namespace std;
@@ -54,4 +54,27 @@ int main()
 
     print_binary(number);
     print_binary(neg_number);
+}
+
+// 3. Bit to decimal
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main() {
+    int n ;
+    cout << "Enter Number of Bits : ";
+    cin >> n;
+    int i = 0;
+    int ans = 0;
+    while ( n !=0 ) {
+        int bits = n % 10;
+        if (bits == 1) {
+            ans = ans + pow(2, i);
+        }
+        n = n / 10;
+            i++;
+    }
+    cout << ans;
 }
