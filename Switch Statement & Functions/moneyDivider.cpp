@@ -1,3 +1,5 @@
+// find the notes
+
 #include<iostream>
 using namespace std;
 int main()
