@@ -18,7 +18,7 @@ int main() {
     int n; 
     cout << "Enter the Size of Array : ";
     cin >> n;
-    int array[n];
+    int array[n]; 
     
     cout << "Enter the Array Elements : ";
     for(int i = 0; i < n ; i++){
