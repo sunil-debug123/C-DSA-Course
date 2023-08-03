@@ -11,6 +11,8 @@ void findPairs(int arr[], int size, vector<pair<int, int>>& pairs, int sum) {
             }
         }
     }
+
+    sort(pairs.begin(), pairs.end());
 }
 
 int main() {
