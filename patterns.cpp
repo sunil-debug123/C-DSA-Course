@@ -664,7 +664,7 @@ int main() {
 
 // 28 .Print Dabbang Pattern;
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 int main() {
    int rows;
